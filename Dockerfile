@@ -8,6 +8,9 @@ WORKDIR /app
 
 ADD . .
 
-EXPOSE 8000
+# Local Deployment
+# EXPOSE 8000
+# CMD ["gunicorn", "--bind", ":8000", "--workers", "3", "jenkinsproject.wsgi:application"]
 
-CMD ["gunicorn", "--bind", ":8000", "--workers", "3", "jenkinsproject.wsgi:application"]
+# Remote Deployment
+CMD gunicorn jenkinsproject.wsgi:application --bind 0.0.0.0:$PORT
