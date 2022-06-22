@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "27e39f5f-6a63-4599-ab21-d3976e8ee594",
+		"name": "Jenkins Sample Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18406444"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
