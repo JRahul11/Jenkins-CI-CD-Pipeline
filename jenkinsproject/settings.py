@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-k$=(_bv1l!w36-v-^4+karjk_pau%96yje6h!zhz+zc$%xn%3f'
 DEBUG = True
-ALLOWED_HOSTS = ['jenkins-rahul.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
